@@ -26,14 +26,14 @@ font-family: 'Butcherman', cursive;
   }
 }
 
-@media screen and(orientation:portrait){
+@media screen and (orientation:portrait){
   body:after{
     content:"縦長";
 font-family: 'Butcherman', cursive;
   }
 }
   
-  @media screen and(orientation:landscape){
+  @media screen and (orientation:landscape){
     body:after{
       content:"横長";
 font-family: 'Butcherman', cursive;

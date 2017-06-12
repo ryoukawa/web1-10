@@ -8,30 +8,55 @@
 @media screen and (max-width:640px){
   body{
     background-color:red;
+font-family: 'Butcherman', cursive;
   }
 }
 
 @media screen and (min-width:641px) and (max-width:980px){
   body{
     background-color:green;
+font-family: 'Butcherman', cursive;
   }
 }
 
 @media screen and (min-width:981px){
   body{
     background-color:blue;
+font-family: 'Butcherman', cursive;
   }
 }
 
 @media screen and(orientation:portrait){
   body:after{
     content:"縦長";
+font-family: 'Butcherman', cursive;
   }
 }
   
   @media screen and(orientation:landscape){
     body:after{
       content:"横長";
+font-family: 'Butcherman', cursive;
     }
 }
-    
+    body{
+      background-color:grey;
+}
+header{
+  padding:10px;
+  text-align:center;
+  background-color:red;
+}
+section{
+  padding:10px;
+  background-color:orange;
+}
+aside{
+  padding:10px;
+  background-color:green;
+}
+footer{
+  padding:10px;
+  background-color:blue;
+  text-align:center;
+}
